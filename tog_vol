@@ -1,0 +1,6 @@
+#!/bin/bash
+# toggle volumte mute
+
+pamixer --toggle
+pkill -SIGRTMIN+9 i3blocks
+
